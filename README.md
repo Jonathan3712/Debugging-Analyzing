@@ -1,7 +1,12 @@
 # Debugging-Analyzing
 System calls are the fundamental interface between user-level applications and the operating system kernel. Understanding their behavior is crucial for debugging, performance optimization, and security analysis. This project focuses on tracing system calls made by Linux coreutils, a suite of essential command-line utilities.
 System calls provide a fundamental connection between user applications and the operating system kernel, allowing critical tasks such as file operations, process management, and memory handling. A deep understanding of how system call's function is important for effective debugging, analyzing performance, and replicating software issues.  
- 
+
+
 This project explores system call tracing with a focus on Linux Coreutils, a crucial collection of command-line tools. Utilizing Intel's PinTool, we carefully instrumented Coreutils to generate detailed system call traces, allowing for an in-depth examination of their internal behavior. The recorded traces, saved in strace.out files, offer valuable insights for debugging, performance tuning, and analyzing historical bugs. 
+
+
 Furthermore, this project involved the meticulous installation and management of multiple coreutils versions to facilitate the reproduction of known bugs. We encountered and successfully addressed various challenges, including dependency mismatches and compatibility issues, by employing systematic debugging techniques and environment isolation strategies. 
+
+
 This document highlights our detailed approach, key findings, and valuable insights from utilizing PinTool to trace and study system calls. By thoroughly examining the behavior of system calls, we aim to drive progress in areas such as software development, debugging techniques, and security evaluation.  
